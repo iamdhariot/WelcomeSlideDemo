@@ -13,7 +13,6 @@
 
     </android.support.v4.view.ViewPager>
     <View
-
         android:layout_above="@id/dotLayout"
         android:layout_marginTop="20dp"
         android:alpha=".4"
@@ -22,21 +21,23 @@
         android:layout_height="1dp"
         />
     <LinearLayout
-
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="70dp"
-        android:layout_centerHorizontal="true"
-       android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
         android:id="@+id/dotLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
 
-    </LinearLayout>
+        android:layout_marginTop="10dp"
+
+        android:layout_marginBottom="70dp"
+        ></LinearLayout>
     <Button
+        android:id="@+id/btnSkip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NEXT"
+        android:text="Skip"
         android:layout_alignParentBottom="true"
 
         android:textColor="@color/white"
@@ -46,11 +47,12 @@
         android:gravity="center"
         />
     <Button
-      android:background="@color/transpreant"
+        android:id="@+id/btnNext"
+       android:background="@color/transpreant"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SKIP"
+        android:text="Next"
         android:layout_alignParentBottom="true"
         android:textColor="@color/white"
         android:layout_alignParentEnd="true"

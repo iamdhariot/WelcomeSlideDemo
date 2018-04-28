@@ -11,4 +11,13 @@
     <color name="transpreant">#029c1010</color>
     <color name="red">#d4272d</color>
     <color name="darkgreen">#0c691a</color>
+
+    <color name="light_green">#1de9b6</color>
+    <color name="dark_green">#00bfa5</color>
+    <color name="blue_gray">#607d8b</color>
+    <color name="dark_yellow">#fbc02d</color>
+
+
+    <color name="gray">#ce767c80</color>
+
 </resources>

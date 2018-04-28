@@ -20,10 +20,17 @@ public class MainActivity extends AppCompatActivity {
         btnRestartSlider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
-                startActivity(new Intent(MainActivity.this,WelcomeActivity.class));
+                loadSlides(v);
 
-            }
+
+                }
+
+
         });
+    }
+    public void loadSlides(View view) {
+        new PreferenceManager(this).clearPreference();
+        finish();
+        startActivity(new Intent(MainActivity.this,WelcomeActivity.class));
     }
 }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WelcomeSlideDemo</string>
+    <string name="my_perference">" in.blogspot.iamdhariot.welcomeslidedemo.MyPref"</string>
+    <string name="my_preference_key">" in.blogspot.iamdhariot.welcomeslidedemo.MyPrefKey"</string>
 </resources>
