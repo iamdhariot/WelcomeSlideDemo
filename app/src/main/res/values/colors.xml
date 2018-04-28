@@ -8,5 +8,7 @@
     <color name="teal">#0c7d87</color>
     <color name="green">#47e481</color>
     <color name="skyblue">#2287d9</color>
-    <color name="transpreant">#02ffffff</color>
+    <color name="transpreant">#029c1010</color>
+    <color name="red">#d4272d</color>
+    <color name="darkgreen">#0c691a</color>
 </resources>
